@@ -1,0 +1,97 @@
+.portraitHome {
+    display:inline-block; 
+    vertical-align: middle;
+    padding-top: 1rem;
+  }
+  
+.home {
+    display:inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 3rem;
+    width: 40rem;
+  }
+
+.home h1 {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif
+  }
+
+.home h3 {
+    margin-top: -2rem;
+}
+
+html { scroll-behavior: smooth; } 
+
+.sectionPortfolio {
+  padding-top: 1.6rem;
+}
+
+.articlePortfolio {
+  justify-content: center;
+}
+
+.project {
+  margin: 2rem;
+  justify-content: center;
+}
+
+div.gallery {
+  height: 24rem;
+}
+
+.photos {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+div.gallery a {
+  text-decoration-style: solid;
+}
+
+.words {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.project {
+width: 30%;
+background-color: white;
+margin-bottom: 20px;
+
+float: left;
+width: 28%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .project {
+      width: 40%;
+      
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .project {
+      width: 100%;
+      
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .project {
+      width: 100%;
+      margin: 6px 0;
+  }
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
