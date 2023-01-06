@@ -1,8 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css"
 import "./css/about.css"
 import "./css/contact.css"
 import "./css/home.css"
-import HomeView from "./views/homeView"
+import HomePresenter from "./presenter/homePresenter"
 import AboutView from "./views/aboutView"
 import ContactView from "./views/contactView"
 import TopMenu from "./views/topMenu"
@@ -16,10 +17,11 @@ import {
 function App() {
   return (
     <div className="App">
+
     <BrowserRouter>
     <TopMenu />
       <Routes>
-            <Route exact path="/" element={<HomeView />}/>
+            <Route exact path="/" element={<HomePresenter />}/>
             <Route path="about" element={<AboutView />}/>
             <Route path="contact" element={<ContactView />}/>  
         </Routes>

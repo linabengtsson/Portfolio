@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function TopMenu() {
     return (
-<body>
+
     <div id="container">
         <aside>
             <header>
@@ -18,7 +18,7 @@ function TopMenu() {
           
         </aside>    
     </div>
-</body>
+
     )
   }
 export default TopMenu;

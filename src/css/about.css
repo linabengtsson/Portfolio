@@ -29,36 +29,3 @@
     width: 35rem;
     font-size: 1.5rem;
 }
-
-.buttonAbout {
-  background-color: #fcdeba;
-  border: 1.5px solid #422800;
-  border-radius: 15px;
-  box-shadow: #422800 2px 2px 0 0;
-  color: #422800;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 1rem;
-  padding: 0 20px;
-  padding-left: 30px;
-  line-height: 30px;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.buttonAbout:hover {
-  box-shadow: #000000 2px 2px 0 0;
-  transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-  .buttonAbout:active {
-    min-width: 120px;
-    padding: 0 25px;
-  }
-}

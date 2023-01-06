@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
 @font-face{
   font-family: 'Montserrat';
   src: url(./fonts/Montserrat-Regular.ttf);
@@ -16,25 +18,18 @@ body {
   text-align: center;
 }
 
-h4 {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-h1, h2, h3 {
+h1, h2, h3, .modal-header {
   font-family: 'DMSerifDisplay';
 }
 
-h1 {
-  font-size: 2rem;
-}
-
 h4 {
+  font-family: 'Times New Roman', Times, serif;
   padding-right: 5rem;
   padding-bottom: 1rem;
   font-size: 1.5rem;
 }
 
-p {
+p, .modal-body {
   font-family: 'Montserrat';
 }
 
@@ -65,15 +60,45 @@ nav ul li{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav a{
+a, .button a {
   color: #000000;
   text-decoration: none;
 }
 
-nav a:focus, nav a:hover, nav a:active {
+a:focus, a:hover, a:active {
   text-decoration: underline;
+  color: #000000;
+  outline: none;
 }
 
-nav a:focus{
-  outline: none;
+.button a:hover {
+  text-decoration: none;
+}
+
+.buttons, .btn {
+  background-color: #fcdeba;
+  border-radius: 5px;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  padding: 10px 20px;
+  padding-left: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; 
+}
+
+.buttons:hover, .btn:hover { 
+  background-color: #fecd91;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-radius: 5px;
+  color: #000000;
 }

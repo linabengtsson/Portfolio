@@ -21,7 +21,7 @@ function AboutView() {
                         I also like to spend time with friends and family, read a book or watch a great tv-serie. </p>
                     <p>I will graduate in June 2023 after written my master thesis at Nasdaq.
                         You can read my CV if you want to know more about me, or you can also contact me!</p>
-                    <button class="buttonAbout">Read my CV</button>
+                    <button class="buttons"> <a href="https://drive.google.com/file/d/1xBFdSxb0cEMxaYBSZiizTPUmxtjDJbS1/view?usp=sharing" target="_blank">Read my CV</a></button>
                 </article>
                 <footer>
                     
